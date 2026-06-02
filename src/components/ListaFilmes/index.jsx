@@ -22,10 +22,7 @@ export default function ListaFilmes({ filmes, usuario, onAbrirDetalhe, onFilmeDe
 
       {filmes.length === 0 ? (
         <div className="text-center py-20">
-          <p className="text-zinc-500 text-lg">Nenhum filme cadastrado ainda.</p>
-          {usuario?.role === 'admin' && (
-            <p className="text-zinc-600 text-sm mt-2">Clique em "Adicionar Filme" para começar.</p>
-          )}
+          <p className="text-zinc-500 text-lg">Nenhum filme cadastrado.</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
