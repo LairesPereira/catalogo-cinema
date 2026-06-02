@@ -44,8 +44,8 @@
       "titulo": "Todo Mundo em Pânico",
       "sinopse": "Das mentes dos criadores do seriado da TV americana \"In living color\" surge o primeiro thriller-comédia, em que adolescentes apavorados fugindo de maníacos assassinos são o pretexto para uma série de piadas envolvendo todos os recentes filme de terror, da série \"Pânico\" até \"O sexto sentido\", passando ainda por outros grandes sucessos do cinema, como \"Matrix\" e \"Os suspeitos\".",
       "capa": "https://upload.wikimedia.org/wikipedia/pt/d/d8/ScaryMovie.jpg",
-      "totalNotas": 1,
-      "somaNotas": 5,
+      "totalNotas": 2,
+      "somaNotas": 8,
       "id": "BqeMcqLgjeM"
     },
     {
@@ -106,6 +106,13 @@
       "usuario": "felipe",
       "texto": "Esse é TOP!!!!!",
       "id": "bYkTdRuVTZ0"
+    },
+    {
+      "filmeId": "BqeMcqLgjeM",
+      "usuarioId": "2",
+      "usuario": "joao",
+      "texto": "Excelente.",
+      "id": "bWPtx62uq5c"
     }
   ],
   "avaliacoes": [
@@ -150,6 +157,12 @@
       "usuarioId": "FVZPVnoPE_w",
       "nota": 5,
       "id": "k_EWsgeHIyw"
+    },
+    {
+      "filmeId": "BqeMcqLgjeM",
+      "usuarioId": "2",
+      "nota": 3,
+      "id": "leMIHUH4ai8"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
