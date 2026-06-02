@@ -1,0 +1,156 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "username": "Admin",
+      "password": "Admin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "joao",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "username": "maria",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "username": "felipe",
+      "password": "123",
+      "role": "user",
+      "id": "FVZPVnoPE_w"
+    },
+    {
+      "username": "felipef",
+      "password": "1234",
+      "role": "user",
+      "id": "-xsH7EKEo78"
+    }
+  ],
+  "filmes": [
+    {
+      "id": "1",
+      "titulo": "Interestelar",
+      "sinopse": "Um grupo de exploradores viaja através de um buraco de minhoca no espaço na tentativa de garantir a sobrevivência da humanidade.",
+      "capa": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+      "totalNotas": 11,
+      "somaNotas": 49
+    },
+    {
+      "titulo": "Todo Mundo em Pânico",
+      "sinopse": "Das mentes dos criadores do seriado da TV americana \"In living color\" surge o primeiro thriller-comédia, em que adolescentes apavorados fugindo de maníacos assassinos são o pretexto para uma série de piadas envolvendo todos os recentes filme de terror, da série \"Pânico\" até \"O sexto sentido\", passando ainda por outros grandes sucessos do cinema, como \"Matrix\" e \"Os suspeitos\".",
+      "capa": "https://upload.wikimedia.org/wikipedia/pt/d/d8/ScaryMovie.jpg",
+      "totalNotas": 1,
+      "somaNotas": 5,
+      "id": "BqeMcqLgjeM"
+    },
+    {
+      "titulo": "Harry Potter e a Pedra Filosofal",
+      "sinopse": "Harry Potter (Daniel Radcliffe) é um garoto órfão de 10 anos que vive infeliz com seus tios, os Dursley. Até que, repentinamente, ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente Harry é impedido de ler a carta por seu tio Válter (Richard Griffiths), mas logo ele recebe a visita de Hagrid (Robbie Coltrane), o guarda-caça de Hogwarts, que chega em sua casa para levá-lo até a escola. A partir de então Harry passa a conhecer um mundo mágico que jamais imaginara, vivendo as mais diversas aventuras com seus mais novos amigos, Rony Weasley (Rupert Grint) e Hermione Granger (Emma Watson).",
+      "capa": "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/95/59/60/20417256.jpg",
+      "totalNotas": 0,
+      "somaNotas": 0,
+      "id": "cF4QZ1cQD-A"
+    }
+  ],
+  "comentarios": [
+    {
+      "id": "1",
+      "filmeId": "1",
+      "usuarioId": "2",
+      "usuario": "joao",
+      "texto": "Filme incrível, mudou minha vida!"
+    },
+    {
+      "id": "2",
+      "filmeId": "1",
+      "usuarioId": "3",
+      "usuario": "maria",
+      "texto": "A trilha sonora é simplesmente perfeita."
+    },
+    {
+      "id": "3",
+      "filmeId": null,
+      "usuarioId": "2",
+      "usuario": "joao",
+      "texto": "Um clássico absoluto do cinema."
+    },
+    {
+      "filmeId": "1",
+      "usuarioId": "FVZPVnoPE_w",
+      "usuario": "felipe",
+      "texto": "asdasd",
+      "id": "tF_Fz582vIM"
+    },
+    {
+      "filmeId": "1",
+      "usuarioId": "FVZPVnoPE_w",
+      "usuario": "felipe",
+      "texto": "Muito Bom",
+      "id": "wBpeKvW6HvA"
+    },
+    {
+      "filmeId": "BqeMcqLgjeM",
+      "usuarioId": "1",
+      "usuario": "Admin",
+      "texto": "Testando comentarios",
+      "id": "VCs94FFy-2I"
+    },
+    {
+      "filmeId": "BqeMcqLgjeM",
+      "usuarioId": "FVZPVnoPE_w",
+      "usuario": "felipe",
+      "texto": "Esse é TOP!!!!!",
+      "id": "bYkTdRuVTZ0"
+    }
+  ],
+  "avaliacoes": [
+    {
+      "id": "1",
+      "filmeId": "1",
+      "usuarioId": "2",
+      "nota": 5
+    },
+    {
+      "id": "2",
+      "filmeId": "1",
+      "usuarioId": "3",
+      "nota": 4
+    },
+    {
+      "id": "3",
+      "filmeId": null,
+      "usuarioId": "2",
+      "nota": 5
+    },
+    {
+      "filmeId": "1",
+      "usuarioId": "FVZPVnoPE_w",
+      "nota": 1,
+      "id": "g8o3zHWmEVA"
+    },
+    {
+      "filmeId": "1",
+      "usuarioId": "-xsH7EKEo78",
+      "nota": 5,
+      "id": "zCr0TY-APrY"
+    },
+    {
+      "filmeId": "BqeMcqLgjeM",
+      "usuarioId": "FVZPVnoPE_w",
+      "nota": 5,
+      "id": "Pus2LsiSaFE"
+    },
+    {
+      "filmeId": "1",
+      "usuarioId": "FVZPVnoPE_w",
+      "nota": 5,
+      "id": "k_EWsgeHIyw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
